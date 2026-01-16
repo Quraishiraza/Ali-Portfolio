@@ -45,7 +45,7 @@ import BishopLogo from "./assets/Education_logo/Bishop.png";
 // Project Section Logo's
 import codeCrafter from "./assets/Work_image/codeCrafter.png";
 import weatherApp from "./assets/Work_image/weatherApp.png";
-import TreeCount from "./assets/Work_image/TreeCount.png"
+import EduNest from "./assets/Work_image/EduNest.png";
 import EpicEscape from "./assets/Work_image/EpicEscape.jpg";
 import notesapp from "./assets/Work_image/NotesApp.png";
 import netflix from "./assets/Work_image/Netflix.png";
@@ -72,10 +72,10 @@ export const SkillsInfo = [
       { name: "Express JS", logo: expressjsLogo },
       { name: "MySQL", logo: mysqlLogo },
       { name: "MongoDB", logo: mongodbLogo },
-      
+
     ],
   },
- 
+
   {
     title: "Artificial Intelligence & Machine Learning",
     skills: [
@@ -116,33 +116,18 @@ export const experiences = [
     role: "Artificial Intelligence Intern",
     company: "366Pi Technologies",
     date: "July 2025 - August 2025",
-    desc: "During this internship, I developed an AI-powered tree counting system using object detection on drone and aerial video frames, achieving 90% detection accuracy.",
+    desc: "During this internship, I developed an AI-powered human emotion detection system using computer vision and deep learning on live video streams, accurately recognizing emotions like happy, sad, angry, and neutral with high precision.",
     skills: [
       "Python",
       "NumPy",
       "Pandas",
       "Pytorch",
       "OpenCV",
-      
+      "YOLOv8",
+
 
     ],
   },
-  // {
-  //   id: 1,
-  //   img: edunetLogo,
-  //   role: "Artificial Intelligence Intern",
-  //   company: "Edunet Foundation",
-  //   date: "May 2025 - June 2025",
-  //   desc: "During this internship, I developed an AI assistant aimed at improving user interaction and automating repetitive tasks. I worked extensively with Python and its core libraries, including NumPy, Pandas, and scikit-learn, to implement machine learning logic and handle data processing. I also integrated basic natural language processing using libraries like NLTK and spaCy to enable smarter user communication.",
-  //   skills: [
-  //     "Python",
-  //     "NumPy",
-  //     "Pandas",
-  //     "Matplotlib",
-  //     "Seaborn",
-  //     "Scikit-learn",
-  //   ],
-  // },
 ];
 
 export const education = [
@@ -196,12 +181,12 @@ export const projects = [
   },
   {
     id: 1,
-    title: "Epic Escape",
+    title: "EduNest",
     description:
-      "Epic Escape is a visually rich, responsive travel website designed to inspire wanderlust and streamline trip planning. Built using HTML, CSS, JavaScript, and PHP, it features dynamic destination showcases, real-time booking interactions, and an adaptive layout that delivers seamless user experiences across devices.",
-    image: EpicEscape,
-    tags: ["HTML", "CSS", "JavaScript", "PHP"],
-    github: "https://github.com/sharmin-iffat/Epic-Escape-A-Travel-Website",
+      "EduNest – E-Learning Platform.A modern, responsive platform for online learning.Students can explore courses and track progress, while instructors can create and manage content.Built with React, TailwindCSS, Node.js, Express.js, and MongoDB.",
+    image: EduNest,
+    tags: ["React", "TailwindCSS", "Nodejs", "Expressjs", "MongoDB"],
+    github: "https://github.com/Quraishiraza/EduNest",
     // webapp:
   },
   {
@@ -214,21 +199,5 @@ export const projects = [
     github: "https://github.com/sharmin-iffat/Notes-App",
     // webapp:
   },
-  // {
-  //   id: 4,
-  //   title: "House Price Prediction",
-  //   description:
-  //     "This project uses the California Housing dataset and XGBRegressor to predict house prices based on features like location, income, and population. It highlights skills in data preprocessing, model building, and evaluation.",
-  //   image: housePrice,
-  //   tags: [
-  //     "Python",
-  //     "NumPy",
-  //     "Pandas",
-  //     "Matplotlib",
-  //     "Seaborn",
-  //     "Scikit-learn",
-  //     "Jupyter Notebook",
-  //   ],
-  //   github: "https://github.com/sharmin-iffat/House-Price-Prediction",
-  // },
+
 ];
