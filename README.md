@@ -55,6 +55,20 @@ src
 ├── index.css
 └── main.jsx
 ```
+- **assets/** – Contains images, CV, and project thumbnails  
+- **components/** – Reusable React components for the website  
+- **hooks/** – Custom React hooks (e.g. `useForm` for the contact form)  
+- **App.jsx** – Main application component and routing setup  
+- **index.css** – Global styles and Tailwind CSS imports  
+- **main.jsx** – Application entry point
+
+---
+
+## 🚀 Getting Started
+
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/sharminiffat/sharminiffat.github.io.git
 
 ---
 
